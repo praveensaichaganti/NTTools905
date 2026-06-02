@@ -20,7 +20,7 @@ public class AppTest
 		
 		System.out.println("=====================================");
 		NetBankingService service=new NetBankingService();
-		String msg=service.TransferMoney(4545454545l, 98989898998l, 5455.0f);
+		String msg=service.TransferMoney(4545454545l, 98989898998l, 5455.0f,"RTGFS");
 		System.out.println(msg);
 	}
 
