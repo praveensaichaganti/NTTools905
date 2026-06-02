@@ -1,6 +1,7 @@
 package com.nt.main;
 
 import com.nt.service.ArithmeticOperations;
+import com.nt.upi.UPIPayment;
 
 public class AppTest 
 {
@@ -8,6 +9,10 @@ public class AppTest
 		ArithmeticOperations ops=new ArithmeticOperations();
 		System.out.println("Result(sum)is::"+ops.sum(10, 20));
 		System.out.println("Result(sub)is::"+ops.sub(20,40));
+		
+		System.out.println("=================================");
+		UPIPayment upiip=new UPIPayment();
+		System.out.println(upiip.doUPIPayment(99999999L, 10000.0f));
 	}
 
 }
