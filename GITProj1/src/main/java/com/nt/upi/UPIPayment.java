@@ -8,4 +8,10 @@ public class UPIPayment
 		
 	}
 
+	public String doUPIByAcno(long accno,float amount) 
+	{
+		return amount+"amount is transformed to accno number"+accno+"BharatPe";
+		
+	}
+
 }
